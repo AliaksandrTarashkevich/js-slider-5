@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Javascript Image Slider</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="background">
+		<img src="./img/bg1.jpg" alt="bg1" class="bg">
+		<img src="./img/bg2.jpg" alt="bg2" class="bg">
+		<img src="./img/bg3.jpg" alt="bg3" class="bg">
+		<img src="./img/bg4.jpg" alt="bg4" class="bg">
+		<img src="./img/bg5.jpg" alt="bg5" class="bg">
+	</div>
+	<div class="slider-container">
+		<div>
+			<div>
+				<div class="slider">
+					<div class="img" id="first">
+						<img src="./img/bg5.jpg" alt="bg5">
+					</div>
+					<div class="img">
+						<img src="./img/bg1.jpg" alt="bg1">
+					</div>
+					<div class="img">
+						<img src="./img/bg2.jpg" alt="bg2">
+					</div>
+					<div class="img">
+						<img src="./img/bg3.jpg" alt="bg3">
+					</div>
+					<div class="img">
+						<img src="./img/bg4.jpg" alt="bg4">
+					</div>
+					<div class="img">
+						<img src="./img/bg5.jpg" alt="bg5">
+					</div>
+					<div class="img" id="last">
+						<img src="./img/bg1.jpg" alt="bg1">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<button class="btn btn-prev" id="prev"><i class="fas fa-chevron-left"></i></button>
+		<button class="btn btn-next" id="next"><i class="fas fa-chevron-right"></i></button>
+		<ul>
+			<li class="option" op-index="0"></li>
+			<li class="option" op-index="1"></li>
+			<li class="option" op-index="2"></li>
+			<li class="option" op-index="3"></li>
+			<li class="option" op-index="4"></li>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
